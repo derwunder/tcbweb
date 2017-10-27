@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+// File directory
+import { HomeCss } from './directory';
+
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
