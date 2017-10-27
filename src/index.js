@@ -1,10 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 // File directory
-import { HomeCss } from './directory';
+import { IndexCss } from './directory';
+// Main Route pending change
+import { Home } from './Views/Home';
 
-import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Home />, document.getElementById('root'));
 registerServiceWorker();
