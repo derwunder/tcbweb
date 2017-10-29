@@ -6,10 +6,10 @@ import homeCss from './Css/home.css';
 import logo from './Images/logo.svg';
 
 //Components
-import testHome from './Components/home/test';
+import parallax from './Components/home/parallax';
 
 
 export const IndexCss = indexCss;
 export const HomeCss = homeCss;
 export const Logo = logo;
-export const TestHome = testHome;
+export const Parallax = parallax;

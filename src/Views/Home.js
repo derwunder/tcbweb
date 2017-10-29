@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { TestHome, HomeCss } from './../directory';
+import { Parallax } from './../directory';
 
 export class Home extends Component {
   render() {
-    return <TestHome />
+    return <Parallax />
   }
 }
