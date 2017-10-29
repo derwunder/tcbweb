@@ -21,9 +21,7 @@ import { Home } from './Views/Home';
 
 import registerServiceWorker from './registerServiceWorker';
 
-<<<<<<< HEAD
-ReactDOM.render(<Home />, document.getElementById('root'));
-=======
+
 //router history
 import createHashHistory from 'history/createHashHistory';
 
@@ -31,6 +29,7 @@ import createHashHistory from 'history/createHashHistory';
 /*  Nee to fix this dang bug, lib problem with react 16.
 var injectTapEventPlugin = require("react-tap-event-plugin");
 injectTapEventPlugin();*/
+registerServiceWorker();
 
 const history = createHashHistory();
 
@@ -75,5 +74,3 @@ ReactDOM.render(
     <MuiThemeProvider muiTheme={muiTheme}><Router/></MuiThemeProvider>
 </Provider>,
    document.getElementById('root'));
->>>>>>> 77b5a430034b02b5c66b00afa05335c6c70ad46c
-registerServiceWorker();

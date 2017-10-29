@@ -1,4 +1,4 @@
-import {auth, github,google} from '../firebase/constants';
+import {auth, github,google} from '../Firebase/constants';
 
 export var login = (userData)=>{
   return{
@@ -42,12 +42,12 @@ export var startLoginEmail = (email, password)=>{
         .then(
           function(result) {
             console.log('Login Worked: ', result);
-            dispatch(loginStat(true));
+            //dispatch(loginStat(true));
           })
         .catch(
           function(error) {
             console.log('Login unable: ', error);
-            dispatch(loginStat(false));
+            //dispatch(loginStat(false));
           }
       );
     };
@@ -58,12 +58,12 @@ export var createAccount = (email, password)=>{
         .then(
           function(result) {
             console.log('Create Worked: ', result);
-            dispatch(loginStat(true));
+          //  dispatch(loginStat(true));
           })
         .catch(
           function(error) {
             console.log('Create unable: ', error);
-            dispatch(loginStat(false));
+            //dispatch(loginStat(false));
           }
       );
     };
